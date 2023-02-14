@@ -1,7 +1,5 @@
 export default function Head() {
-  return (
-    <>
-      
-    </>
-  )
+  <>
+  <title>Rosanna's Portfolio</title>
+  </>
 }
