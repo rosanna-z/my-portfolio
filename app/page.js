@@ -1,6 +1,7 @@
 "use client";
 
 import NavBar from "./navBar";
+import About from "./About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           My name is Rosanna, a developer based in Vancouver, BC.
         </div>
       </h1>
+      <About />
     </main>
   )
 }
