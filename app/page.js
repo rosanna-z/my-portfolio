@@ -1,19 +1,19 @@
 "use client";
 
-import NavBar from "./navBar";
+import NavBar from "./NavBar";
 import About from "./About";
 
 export default function Home() {
   return (
-    <main>
+    <main className="py-2 m-5">
       <NavBar />
-      <h1 className="text-lg py-2 m-5">
+      <h1 className="text-lg">
         Hello! 
-        <div className="text-{rgb(192, 214, 223)}">
-          My name is Rosanna, a developer based in Vancouver, BC.
+        <div>
+          My name is <p className="text-purple"> Rosanna</p>, a developer based in Vancouver, BC.
         </div>
       </h1>
       <About />
     </main>
   )
-}
+};
