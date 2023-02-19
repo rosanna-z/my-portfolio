@@ -12,7 +12,7 @@ export default function About() {
       <section className="flex flex-row justify-center mx-10 my-5">
         <div className="flex flex-col w-1/2">
         {/* <div className="flex flex-col"> */}
-          Hi there! My name is Rosanna Zhang. I am a full-stack developer with
+          Hi there! My name is Rosanna Zhang, I am a full-stack developer with
           an interest in front-end development. I have a Bachelor of Management
           from University of British Columbia and more recently, I completed the
           Lighthouse Lab's Web Development Bootcamp program.
