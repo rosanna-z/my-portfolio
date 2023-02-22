@@ -2,9 +2,9 @@
 
 export default function Intro() {
   return (
-    <section className="bg-bg-color h-80">
-      <div className="m-20 flex justify-evenly">
-        
+    <section className="bg-bg-color">
+      <div className="flex justify-evenly  p-20 mx-36">
+
       <h1 className="text-lg py-14 px-">
         Hello!
         <div>
