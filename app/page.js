@@ -9,7 +9,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
 import NavBar from "./NavBar";
 import Intro from './Intro';
 import About from "./About";
-import Projects from './projects';
+import Projects from './Projects';
 
 export default function Home() {
   return (
