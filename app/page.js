@@ -10,11 +10,13 @@ import NavBar from "./NavBar";
 import Intro from './Intro';
 import About from "./About";
 import Projects from './Projects';
+import Sidebar from './Sidebar';
 
 export default function Home() {
   return (
     <main className="text-grey py-2">
       <NavBar />
+      <Sidebar />
       <Intro />
       <About />
       <Projects />

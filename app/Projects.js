@@ -38,20 +38,13 @@ export default function Projects() {
               </a>
             </p>
             <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
-              My portfolio is a client-sided application to showcase my past
-              projects.
+              My portfolio is a client-sided application to display my past
+              projects. Using React and Tailwind to demonstrate my front-end
+              development skills.
             </article>
             <div className={`${SourceCode.className} text-sm`}>
               Javascript, React, NextJS, Tailwind
             </div>
-            {/* <span className="inline-block">
-              <a href="https://github.com/rosanna-z/my-portfolio">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="justify-self-start my-3 cursor-pointer"
-                />
-              </a>
-            </span> */}
           </div>
         </div>
         <div className="flex flex-row justify-center mx-36 mb-20">
@@ -63,25 +56,25 @@ export default function Projects() {
             className="drop-shadow rounded-2xl"
           />
           <div className="flex flex-col p-10">
-            <p className="text-lg font-semibold">Doable</p>
-            <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
-              A RESTful project management app that allows users to create,
-              edit, and delete projects and tasks within a project. A drag and
-              drop feature to update the statuses of each task, as well as a
-              chat feature using Websocket.io to allow team members to
-              collaborate with each other.
-            </article>
-            <div className={`${SourceCode.className} text-sm`}>
-              Node, Express, React, Bootstrap, PostgreSQL, Websocket.io
-            </div>
-            <span className="inline-block">
+            <p className="text-lg font-semibold">
+              Doable&nbsp;
               <a href="https://github.com/rosanna-z/Doable">
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="justify-self-start my-3 cursor-pointer"
+                  className="justify-self-start cursor-pointer"
                 />
               </a>
-            </span>
+            </p>
+            <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
+              A RESTful project management app that allows users to create,
+              edit, and delete projects and tasks within a project. React
+              Context was used for the state management and a drag and drop
+              feature to update the status of each task. A chat feature using
+              Socket.io to allow team members to collaborate with each other.
+            </article>
+            <div className={`${SourceCode.className} text-sm`}>
+              Node, Express, Javascript, React, Bootstrap, PostgreSQL, Socket.IO
+            </div>
           </div>
         </div>
         <div className="flex flex-row justify-center mx-36 mb-20">
@@ -93,7 +86,15 @@ export default function Projects() {
             className="drop-shadow rounded-2xl"
           />
           <div className="flex flex-col p-10">
-            <p className="text-lg font-semibold">Double Bubble Trouble</p>
+            <p className="text-lg font-semibold">
+              Double Bubble Trouble&nbsp;
+              <a href="https://github.com/rosanna-z/FoodOrderApp_MidTermProject">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="justify-self-start cursor-pointer"
+                />
+              </a>
+            </p>
             <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
               A single page ordering app for a fictitious bubble tea shop where
               users can select one or more beverages and place an order for
@@ -104,14 +105,6 @@ export default function Projects() {
             <div className={`${SourceCode.className} text-sm`}>
               Node, Express, Javscript, jQuery, Twilio, PostgreSQL
             </div>
-            <span className="inline-block">
-              <a href="https://github.com/rosanna-z/FoodOrderApp_MidTermProject">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="justify-self-start my-3 cursor-pointer"
-                />
-              </a>
-            </span>
           </div>
         </div>
       </div>
