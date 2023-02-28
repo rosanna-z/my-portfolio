@@ -12,7 +12,7 @@ export default function NavBar() {
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-grey"
               href="/"
             >
-              NavBar
+              Rosanna Zhang
             </a>
             <button
               className="text-grey cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
