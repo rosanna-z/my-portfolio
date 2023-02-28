@@ -35,14 +35,14 @@ export default function About() {
                     icon={faCaretRight}
                     className="text-bg-color"
                   />
-                  &nbsp;React.js
+                  &nbsp;React
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
                     className="text-bg-color"
                   />
-                  &nbsp;Node.js
+                  &nbsp;Node
                 </li>
                 <li>
                   <FontAwesomeIcon
