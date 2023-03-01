@@ -12,16 +12,19 @@ import About from "./About";
 import Projects from './Projects';
 import Sidebar from './Sidebar';
 import Contact from './Contact';
+import Footer from './Footer';
+
 
 export default function Home() {
   return (
-    <main className="text-grey py-2">
+    <main className="text-grey py-2 h-screen">
       <NavBar />
       <Sidebar />
       <Intro />
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   )
 };
