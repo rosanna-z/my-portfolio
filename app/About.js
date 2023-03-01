@@ -67,10 +67,14 @@ export default function About() {
                 </li>
               </ul>
               <p className="my-5">
-                I am currently open to new opportunities. If you are interested
-                in a chat or collaborating in a project, feel free to reach out
-                - I love meeting new people and I will get back to you as soon
-                as I can!
+                You can also view my resume{" "}
+                <a href="Resume.pdf" className="text-purple">
+                  here
+                </a>
+                . I am currently open to new opportunities. If you are
+                interested in a chat or collaborating in a project, feel free to
+                reach out - I love meeting new people and I will get back to you
+                as soon as I can!
               </p>
             </div>
           </section>

@@ -11,6 +11,7 @@ import Intro from './Intro';
 import About from "./About";
 import Projects from './Projects';
 import Sidebar from './Sidebar';
+import Contact from './Contact';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Intro />
       <About />
       <Projects />
+      <Contact />
     </main>
   )
 };
