@@ -2,45 +2,34 @@
 
 export default function NavBar() {
   return (
-    <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
-        <div className="container px-4 mx-auto flex items-center justify-between">
+      <nav className="fixed top-0 z-50 flex flex-wrap items-center justify-between px-2 py-3 w-full shadow-lg bg-white">
+        <div className="container px-4 mx-auto flex items-center justify-between font-bold text-sm hover:underline-offset-4">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-grey"
+              className="leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-grey hover:underline"
               href="/"
             >
               Rosanna Zhang
             </a>
           </div>
-          <ul className="flex lg:flex-row list-none lg:ml-auto">
-            <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                href="#about"
-              >
-                <span className="ml-2">About</span>
+          <ul className="flex lg:flex-row justify-center list-none lg:ml-auto gap-8">
+            <li className="py-2 uppercase leading-snug text-grey hover:opacity-75">
+              <a href="#about" className="hover:underline">
+                About
               </a>
             </li>
-            <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                href="#projects"
-              >
-                <span className="ml-2">Projects</span>
+            <li className="py-2 uppercase leading-snug text-grey hover:opacity-75">
+              <a href="#projects" className="hover:underline">
+                Projects
               </a>
             </li>
-            <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                href="#contact"
-              >
-                <span className="ml-2">Contact</span>
+            <li className="py-2 uppercase leading-snug text-grey hover:opacity-75">
+              <a href="#contact" className="hover:underline">
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </nav>
-    </>
   );
 }

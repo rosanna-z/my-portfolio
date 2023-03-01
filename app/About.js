@@ -9,7 +9,7 @@ export default function About() {
       <section id="about" className="flex flex-row mx-36">
         <div className="flex flex-row md:w-full p-20">
           <section className="flex flex-col">
-            <h1 className="text-lg font-semibold">ABOUT ME</h1>
+            <h1 className="text-lg font-bold">ABOUT ME</h1>
             <div className="flex flex-col mb-20 mt-5">
               Hi there! My name is Rosanna Zhang, I am a full-stack developer
               with an interest in front-end development. I have a Bachelor of
@@ -26,42 +26,42 @@ export default function About() {
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;Javascript
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;React
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;Node
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;Redux
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;Next.js
                 </li>
                 <li>
                   <FontAwesomeIcon
                     icon={faCaretRight}
-                    className="text-bg-color"
+                    className="text-purple"
                   />
                   &nbsp;Tailwind
                 </li>

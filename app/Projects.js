@@ -17,7 +17,7 @@ const SourceCode = Source_Code_Pro({
 export default function Projects() {
   return (
     <section id="projects" className="bg-bg-color p-20">
-      <h1 className="text-lg mx-36 pb-10 font-semibold">PROJECTS</h1>
+      <h1 className="text-lg mx-36 pb-10 font-bold">PROJECTS</h1>
       <div className="flex flex-col ">
         <div className="flex flex-row justify-center mx-36 mb-20 rounded-2xl">
           <Image

@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 export default function Intro() {
   return (
     <section id="intro" className="bg-bg-color">
-      <div className="flex justify-evenly p-20 py-14 mx-36">
+      <div className="flex justify-evenly p-20 py-36 mx-36">
         <div className="flex flex-col text-5xl py-14 gap-y-5">
           Hello! This is
           <Typewriter
