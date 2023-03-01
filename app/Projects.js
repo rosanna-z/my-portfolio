@@ -16,7 +16,7 @@ const SourceCode = Source_Code_Pro({
 
 export default function Projects() {
   return (
-    <section className="bg-bg-color p-20">
+    <section id="projects" className="bg-bg-color p-20">
       <h1 className="text-lg mx-36 pb-10 font-semibold">PROJECTS</h1>
       <div className="flex flex-col ">
         <div className="flex flex-row justify-center mx-36 mb-20 rounded-2xl">
@@ -39,7 +39,7 @@ export default function Projects() {
             </p>
             <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
               My portfolio is a client-sided application to display my past
-              projects. Using React and Tailwind to demonstrate my front-end
+              projects. Using React and Tailwind to showcase my front-end
               development skills.
             </article>
             <div className={`${SourceCode.className} text-sm`}>
@@ -47,6 +47,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
         <div className="flex flex-row justify-center mx-36 mb-20">
           <Image
             src="/newProjectgh.gif"
@@ -77,6 +78,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
         <div className="flex flex-row justify-center mx-36 mb-20">
           <Image
             src="/newProjectgh.gif"

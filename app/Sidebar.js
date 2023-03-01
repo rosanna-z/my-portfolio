@@ -17,6 +17,7 @@ export default function Sidebar() {
         <FontAwesomeIcon icon={faEnvelope} className="sm:text-sm md:text-xl lg:-text-2xl cursor-pointer" />
       </a>
       {/* <div className="w-0.5 text-black"></div> */}
+      <div class="flex-grow border-l border-gray-400"></div>
     </aside>
   );
 }

@@ -6,7 +6,7 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
   return (
     <>
-      <div className="flex flex-row mx-36">
+      <section id="about" className="flex flex-row mx-36">
         <div className="flex flex-row md:w-full p-20">
           <section className="flex flex-col">
             <h1 className="text-lg font-semibold">ABOUT ME</h1>
@@ -80,7 +80,7 @@ export default function About() {
             className="rounded-full px-10 h-64 mt-10"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 }

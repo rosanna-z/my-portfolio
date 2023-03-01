@@ -1,12 +1,10 @@
-import { useState } from "react";
+"use client";
 
 export default function NavBar() {
-  const [navbarOpen, setNavbarOpen] = useState(false);
-
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="container px-4 mx-auto flex items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-grey"
@@ -14,51 +12,33 @@ export default function NavBar() {
             >
               Rosanna Zhang
             </a>
-            <button
-              className="text-grey cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i className="fas fa-bars"></i>
-            </button>
           </div>
-          <div
-            className={
-              "lg:flex flex-grow items-center" +
-              (navbarOpen ? " flex" : " hidden")
-            }
-            id="example-navbar-danger"
-          >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                  href="/about"
-                >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-grey opacity-75"></i>
-                  <span className="ml-2">About</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                  href="/projects"
-                >
-                  <i className="fab fa-twitter text-lg leading-lg text-grey opacity-75"></i>
-                  <span className="ml-2">Projects</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
-                  href="/contact"
-                >
-                  <i className="fab fa-pinterest text-lg leading-lg text-grey opacity-75"></i>
-                  <span className="ml-2">Contact</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul className="flex lg:flex-row list-none lg:ml-auto">
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
+                href="#about"
+              >
+                <span className="ml-2">About</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
+                href="#projects"
+              >
+                <span className="ml-2">Projects</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-grey hover:opacity-75"
+                href="#contact"
+              >
+                <span className="ml-2">Contact</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </>
