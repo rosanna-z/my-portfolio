@@ -19,7 +19,7 @@ export default function Projects() {
     <section id="projects" className="bg-bg-color p-20">
       <h1 className="text-lg mx-36 pb-10 font-bold">PROJECTS</h1>
       <div className="flex flex-col ">
-        <div className="flex flex-row justify-center mx-36 mb-20 rounded-2xl">
+        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20 rounded-2xl">
           <Image
             src="/newProjectgh.gif"
             alt="doable-gif"
@@ -48,7 +48,7 @@ export default function Projects() {
           </div>
         </div>
         <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
-        <div className="flex flex-row justify-center mx-36 mb-20">
+        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20">
           <Image
             src="/newProjectgh.gif"
             alt="doable-gif"
@@ -79,7 +79,7 @@ export default function Projects() {
           </div>
         </div>
         <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
-        <div className="flex flex-row justify-center mx-36 mb-20">
+        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20">
           <Image
             src="/newProjectgh.gif"
             alt="doable-gif"
@@ -101,8 +101,8 @@ export default function Projects() {
               A single page ordering app for a fictitious bubble tea shop where
               users can select one or more beverages and place an order for
               pick-up. Users will receive notifications when their order is
-              sent, when it is confirmed (with estimated pick up time) and when
-              it is ready for pick-up.
+              sent, when it is confirmed (with estimated pick up time sent from
+              shop owner) and when it is ready for pick-up.
             </article>
             <div className={`${SourceCode.className} text-sm`}>
               Node, Express, Javscript, jQuery, Twilio, PostgreSQL

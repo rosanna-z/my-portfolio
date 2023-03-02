@@ -7,21 +7,33 @@ export default function About() {
   return (
     <>
       <section id="about" className="flex flex-row mx-36">
-        <div className="flex flex-row md:w-full p-20">
+        <div className="flex flex-col laptop:flex-row tablet:w-full p-20">
           <section className="flex flex-col">
             <h1 className="text-lg font-bold">ABOUT ME</h1>
             <div className="flex flex-col mb-20 mt-5">
+              <span>
               Hi there! My name is Rosanna Zhang, I am a full-stack developer
               with an interest in front-end development. I have a Bachelor of
-              Management from University of British Columbia and more recently,
-              I completed the Lighthouse Lab's Web Development Bootcamp program.
+              Management from{" "}
+              <a href="https://ubc.ca" className="text-purple hover:cursor-pointer">
+                University of British Columbia
+              </a>{" "}
+              and more recently, I completed the{" "}
+              <a
+                href="https://lighthouselabs.ca"
+                className="text-purple hover:cursor-pointer"
+              >
+                Lighthouse Lab
+              </a>
+              's Web Development Bootcamp program.
               <p className="my-5">
                 Transitioning from Human Resources, I hope to utilize my people
                 and technical skills to create efficient and effective
-                solutions. I am committed to tackling goals to solve real-world
+                solutions. I enjoy collaborating and tackling goals to solve real-world
                 issues to make a positive impact in the community. Here are some
-                of the technologies I've been working on lately:
+                of the technologies I've been learning lately:
               </p>
+              </span>
               <ul className="pl-5 grid grid-cols-2">
                 <li>
                   <FontAwesomeIcon
@@ -68,13 +80,13 @@ export default function About() {
               </ul>
               <p className="my-5">
                 You can also view my resume{" "}
-                <a href="Resume.pdf" className="text-purple">
+                <a
+                  href="Resume.pdf"
+                  className="text-purple hover:cursor-pointer"
+                >
                   here
                 </a>
-                . I am currently open to new opportunities. If you are
-                interested in a chat or collaborating in a project, feel free to
-                reach out - I love meeting new people and I will get back to you
-                as soon as I can!
+                . I am currently open to new opportunities. Interested in reaching out? Let's talk!
               </p>
             </div>
           </section>

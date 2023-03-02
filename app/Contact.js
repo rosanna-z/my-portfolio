@@ -7,10 +7,13 @@ import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 export default function Contact() {
   return (
     <section id="contact" className="p-40 mb-16">
-      <div className="flex flex-col justify-center text-center gap-5">
-        <h1 className="text-lg font-bold mb-10">CONTACT</h1>
-        <p className="flex flex-col">Interested in reaching out? Let's talk! 😊</p>
-        <ul className="flex flex-row justify-center list-none gap-3">
+      <div className="flex flex-col text-center gap-5">
+        <h1 className="text-lg font-bold uppercase mb-10">Contact</h1>
+        <p className="max-w-xl place-self-center">If you are
+                interested in a chat or collaborating in a project, feel free to
+                reach out. I love meeting new people and I will get back to you
+                as soon as I can.</p>
+        <ul className="flex flex-col justify-center place-items-center list-none gap-3 whitespace-nowrap tablet:whitespace-normal laptop:flex-row">
           <li className="rounded-md border p-2 hover:shadow cursor-pointer hover:text-purple max-w-fit">
             <a href="mailto: rosannazhang@hotmail.com">
               <FontAwesomeIcon icon={faEnvelope} className="cursor-pointer" />
