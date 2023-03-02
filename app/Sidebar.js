@@ -6,7 +6,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sidebar() {
   return (
-    <aside className="flex flex-col mx-10 my-64 gap-5 fixed sm:text-sm tablet:text-xl laptop:text-2xl">
+    <aside className="flex flex-col mx-10 h-2/5 absolute bottom-0 left-0 gap-5 fixed tablet:text-xl laptop:text-2xl z-10">
       <a href="mailto: rosannazhang@hotmail.com" className="hover:text-purple">
         <FontAwesomeIcon
           icon={faEnvelope}
