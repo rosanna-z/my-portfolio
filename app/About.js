@@ -5,10 +5,10 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <section id="about" className="p-5 pt-16 h-screen flex justify-center">
+    <section id="about" className="p-5 py-16 laptop:h-screen flex justify-center">
       <div className="laptop:w-2/3">
         <h1 className="text-lg font-bold my-5">ABOUT</h1>
-        <div className="flex flex-col laptop:flex-row">
+        <article className="flex flex-col laptop:flex-row items-center">
           <span className="laptop:w-2/3 mr-5">
             Hi there! My name is Rosanna Zhang, I am a full-stack developer with
             an interest in front-end development. I have a Bachelor of
@@ -69,14 +69,12 @@ export default function About() {
               in a chat or collaborating in a project, feel free to reach out.
             </p>
           </span>
-          <span className="flex justify-center">
             <img
               src="/Rosanna.jpg"
               alt="profile"
-              className="rounded-full max-h-48 w-fit"
+              className="rounded-full max-h-48 w-fit flex-shrink-0"
             />
-          </span>
-        </div>
+        </article>
       </div>
     </section>
   );

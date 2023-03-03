@@ -17,7 +17,7 @@ import Footer from './Footer';
 
 export default function Home() {
   return (
-    <main className="py-2 h-screen">
+    <main className="h-screen">
       <NavBar />
       <Sidebar />
       <Intro />
