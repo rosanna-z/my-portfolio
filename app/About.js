@@ -5,11 +5,11 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   return (
-    <section id="about" className="p-5 h-screen flex justify-center">
-      <div className="container laptop:w-2/3">
+    <section id="about" className="p-5 pt-16 h-screen flex justify-center">
+      <div className="laptop:w-2/3">
         <h1 className="text-lg font-bold my-5">ABOUT</h1>
         <div className="flex flex-col laptop:flex-row">
-          <span className="container laptop:max-w-2/3 mr-5">
+          <span className="laptop:w-2/3 mr-5">
             Hi there! My name is Rosanna Zhang, I am a full-stack developer with
             an interest in front-end development. I have a Bachelor of
             Management from{" "}
@@ -30,9 +30,9 @@ export default function About() {
             <p className="my-5">
               Transitioning from Human Resources, I hope to utilize my people
               and technical skills to create efficient and effective solutions.
-              I enjoy collaborating and tackling goals to solve real-world
-              issues to make a positive impact in the community. Here are some
-              of the technologies I've been learning lately:
+              I enjoy collaborating and tackling goals together to solve
+              real-world issues to make a positive impact in the community. Here
+              are some of the technologies I've been learning lately:
             </p>
             <ul className="pl-5 grid grid-cols-2">
               <li>
@@ -65,8 +65,8 @@ export default function About() {
               <a href="Resume.pdf" className="text-purple hover:cursor-pointer">
                 here
               </a>
-              . I am currently open to new opportunities. Interested in reaching
-              out? Let's talk!
+              . I am currently open to new opportunities. If you are interested
+              in a chat or collaborating in a project, feel free to reach out.
             </p>
           </span>
           <span className="flex justify-center">
