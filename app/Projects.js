@@ -16,106 +16,114 @@ const SourceCode = Source_Code_Pro({
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-bg-color p-20">
-      <h1 className="text-lg mx-36 pb-10 font-bold">PROJECTS</h1>
-      <div className="flex flex-col ">
-        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20 rounded-2xl">
-          <Image
-            src="/newProjectgh.gif"
-            alt="doable-gif"
-            width="500"
-            height="500"
-            className="drop-shadow rounded-2xl"
-          />
-          <div className="flex flex-col p-10">
+    <section
+      id="projects"
+      className="flex justify-center bg-bg-color py-20 p-5"
+    >
+      <div className="flex flex-col laptop:w-2/3 gap-5">
+        <h1 className="text-lg font-bold my-5 uppercase">Projects</h1>
+        {/* Project 1 */}
+        <div className="flex flex-col laptop:flex-row m-5">
+          <span className="flex flex-col place-content-center">
             <p className="text-lg font-semibold">
               My Portfolio&nbsp;
               <a href="https://github.com/rosanna-z/my-portfolio">
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="justify-self-start cursor-pointer"
+                  className="cursor-pointer hover:text-purple"
                 />
               </a>
             </p>
-            <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
+            <article className="bg-slate-50 max-w-lg p-5 my-3 drop-shadow">
               My portfolio is a client-sided application to display my past
               projects. Using React and Tailwind to showcase my front-end
               development skills.
+              <p className={`${SourceCode.className} text-sm mt-5`}>
+                Javascript React NextJS Tailwind
+              </p>
             </article>
-            <div className={`${SourceCode.className} text-sm`}>
-              Javascript, React, NextJS, Tailwind
-            </div>
-          </div>
-        </div>
-        <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
-        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20">
+          </span>
           <Image
             src="/newProjectgh.gif"
             alt="doable-gif"
             width="500"
             height="500"
-            className="drop-shadow rounded-2xl"
+            className="drop-shadow rounded-2xl m-3"
           />
-          <div className="flex flex-col p-10">
+        </div>
+        {/* this is a line */}
+        <div className="flex-grow border-t border-gray-400"></div>
+        {/* Project 2 */}
+        <div className="flex flex-col laptop:flex-row m-5">
+          <span className="flex flex-col place-content-center">
             <p className="text-lg font-semibold">
               Doable&nbsp;
               <a href="https://github.com/rosanna-z/Doable">
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="justify-self-start cursor-pointer"
+                  className="cursor-pointer hover:text-purple"
                 />
               </a>
             </p>
-            <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
+            <article className="bg-slate-50 max-w-lg h-auto p-5 my-3 drop-shadow">
               A RESTful project management app that allows users to create,
               edit, and delete projects and tasks within a project. React
               Context was used for the state management and a drag and drop
               feature to update the status of each task. A chat feature using
               Socket.io to allow team members to collaborate with each other.
+              <p className={`${SourceCode.className} text-sm mt-5`}>
+                Node Express Javascript React Bootstrap PostgreSQL Socket.IO
+              </p>
             </article>
-            <div className={`${SourceCode.className} text-sm`}>
-              Node, Express, Javascript, React, Bootstrap, PostgreSQL, Socket.IO
-            </div>
-          </div>
-        </div>
-        <div class="flex-grow border-t border-gray-400 pb-20 mx-16"></div>
-        <div className="flex flex-col laptop:flex-row justify-center mx-36 mb-20">
+          </span>
           <Image
             src="/newProjectgh.gif"
             alt="doable-gif"
             width="500"
             height="500"
-            className="drop-shadow rounded-2xl"
+            className="drop-shadow rounded-2xl m-3"
           />
-          <div className="flex flex-col p-10">
+        </div>
+        {/* this is a line */}
+        <div className="flex-grow border-t border-gray-400"></div>
+        {/* Project 3 */}
+        <div className="flex flex-col laptop:flex-row m-5">
+          <span className="flex flex-col place-content-center">
             <p className="text-lg font-semibold">
               Double Bubble Trouble&nbsp;
               <a href="https://github.com/rosanna-z/FoodOrderApp_MidTermProject">
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="justify-self-start cursor-pointer"
+                  className="cursor-pointer hover:text-purple"
                 />
               </a>
             </p>
-            <article className="bg-slate-50 w-500 h-500 p-5 my-5 drop-shadow">
+            <article className="bg-slate-50 max-w-lg h-auto p-5 my-3 drop-shadow">
               A single page ordering app for a fictitious bubble tea shop where
               users can select one or more beverages and place an order for
               pick-up. Users will receive notifications when their order is
               sent, when it is confirmed (with estimated pick up time sent from
               shop owner) and when it is ready for pick-up.
+              <p className={`${SourceCode.className} text-sm mt-5`}>
+                Node Express Javscript jQuery Twilio PostgreSQL
+              </p>
             </article>
-            <div className={`${SourceCode.className} text-sm`}>
-              Node, Express, Javscript, jQuery, Twilio, PostgreSQL
-            </div>
-          </div>
+          </span>
+          <Image
+            src="/newProjectgh.gif"
+            alt="doable-gif"
+            width="500"
+            height="500"
+            className="drop-shadow rounded-2xl m-3"
+          />
         </div>
       </div>
       {/* <div className='max-w-500 h-500 w-full relative group' >
-        <div
-          style={{ backgroundImage: `url('/newProjectgh.gif')` }}
-          className="w-full h-full"
-        ></div>
-      </div> */}
+          <div
+            style={{ backgroundImage: `url('/newProjectgh.gif')` }}
+            className="w-full h-full"
+          ></div>
+        </div> */}
     </section>
   );
 }
