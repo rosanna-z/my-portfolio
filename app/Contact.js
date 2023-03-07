@@ -17,7 +17,7 @@ export default function Contact() {
           <li className="rounded-md border p-2 hover:shadow cursor-pointer hover:text-purple max-w-fit">
             <a href="mailto: rosannazhang@hotmail.com">
               <FontAwesomeIcon icon={faEnvelope} className="cursor-pointer" />
-              &nbsp;Send email
+              &nbsp;Say hello!
             </a>
           </li>
           <li className="rounded-md border p-2 hover:shadow cursor-pointer hover:text-purple max-w-fit">

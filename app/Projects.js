@@ -45,7 +45,7 @@ export default function Projects() {
             </article>
           </span>
           <img
-            src="/newProjectgh.gif"
+            src="/portfolio.gif"
             alt="doable-gif"
             className="drop-shadow rounded-2xl m-3 tablet:max-w-lg laptop:w-1/2"
           />
@@ -78,7 +78,7 @@ export default function Projects() {
             </article>
           </span>
           <img
-            src="/newProjectgh.gif"
+            src="/doable.gif"
             alt="doable-gif"
             className="drop-shadow rounded-2xl m-3 tablet:max-w-lg laptop:w-1/2"
           />
@@ -98,20 +98,17 @@ export default function Projects() {
               </a>
             </p>
             <article className="bg-slate-50 max-w-lg h-auto p-5 my-3 drop-shadow">
-              A single page ordering app for a fictitious bubble tea shop where
-              users can select one or more beverages and place an order for
-              pick-up. Users will receive notifications when their order is
-              sent, when it is confirmed (with estimated pick up time sent from
-              shop owner) and when it is ready for pick-up.
+              A single page client application that uses React where a user can
+              book, edit, or cancel interview appointments.
               <p
                 className={`${SourceCode.className} text-sm mt-5 text-purple font-semibold`}
               >
-                Node Express Javscript jQuery Twilio PostgreSQL
+                React, Axios, Classnames, Normalize, Storybook
               </p>
             </article>
           </span>
           <img
-            src="/newProjectgh.gif"
+            src="/scheduler.gif"
             alt="doable-gif"
             className="drop-shadow rounded-2xl m-3 tablet:max-w-lg laptop:w-1/2"
           />
