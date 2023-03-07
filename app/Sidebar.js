@@ -28,8 +28,7 @@ export default function Sidebar() {
           className="cursor-pointer hover:animate-bounce"
         />
       </a>
-      {/* <div className="w-0.5 text-black"></div> */}
-      <div className="flex-grow border-l border-gray-400"></div>
+      <div className="h-full border-l border-gray-400 mx-auto"></div>
     </aside>
   );
 }

@@ -89,7 +89,7 @@ export default function Projects() {
         <div className="flex flex-col laptop:flex-row m-5 laptop:w-full">
           <span className="flex flex-col place-content-center laptop:min-w-1/2">
             <p className="text-lg font-semibold">
-              Double Bubble Trouble&nbsp;
+              Scheduler&nbsp;
               <a href="https://github.com/rosanna-z/FoodOrderApp_MidTermProject">
                 <FontAwesomeIcon
                   icon={faGithub}
